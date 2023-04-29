@@ -19,7 +19,7 @@
 - #### Admin
 - email: abiarun7708@gmail.com
 - psd : password
-- 
+
 - #### Writer as Musician
 - email: writer@writer.com
 - psd: password
