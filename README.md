@@ -1,4 +1,8 @@
-## For Basic Functionalities
+## Important Notes
+- Here I'm Declaring the "writer" role as "musician".
+- The "admin" can only create a new "musician" role.
+- User can saw the audio files directly from the welcome page.
+
 ## How to run the code
 - git clone https://github.com/Abishekarun12/Musician.git
 - cp .env example as .env
@@ -6,9 +10,6 @@
 - composer install/ composer update
 - Create a DB as your wish(name)
 - Run php artisan migrate:fresh --seed
-- Here I'm Declaring the "writer" role as "musician".
-- The "admin" can only create a new "musician" role.
-- User can saw the audio files directly from the welcome page.
 - Run "php artisan storage:link".
 - Finally, Run "php artisan serve"
 - Best of luck 
