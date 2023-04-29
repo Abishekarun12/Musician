@@ -1,14 +1,16 @@
 ## For Basic Functionalities
 ## How to run the code
 - git clone https://github.com/Abishekarun12/FarmEasy.git
-- cd Farm Easy (Check and do it)
-- cp .env.example `.env`
-- open .env and update DB_DATABASE (database details)
-- run : `composer install`
-- run : `php artisan key:generate`
-- run : `php artisan migrate:fresh --seed`
-- run : `php artisan serve`
-
+- cp .env example as .env
+cd musician
+composer install/ composer update
+Create a DB as your wish(name)
+Run php artisan migrate:fresh --seed
+Here I'm Declaring the "writer" role as "musician".
+The "admin" can only create a new "musician" role.
+User can saw the audio files directly from the welcome page.
+Run "php artisan storage:link".
+Finally, Run "php artisan serve"
 - Best of luck 
 
 
