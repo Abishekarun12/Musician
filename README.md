@@ -25,4 +25,5 @@
 - psd: password
 
 ##Screenshots
-- ![Welcome Page](https://github.com/Abishekarun12/Musician/blob/master/public/images/1682756870_res%20img.jpg)
+- ![welcome page](https://user-images.githubusercontent.com/87216296/235295988-b192b957-20ee-4813-879c-0ed3baa19412.jpg)
+
