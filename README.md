@@ -1,6 +1,6 @@
 ## For Basic Functionalities
 ## How to run the code
-- git clone https://github.com/Abishekarun12/FarmEasy.git
+- git clone https://github.com/Abishekarun12/Musician.git
 - cp .env example as .env
 - cd musician
 - composer install/ composer update
