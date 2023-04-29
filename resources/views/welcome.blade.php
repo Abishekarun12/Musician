@@ -1,16 +1,13 @@
 <x-front-guest-layout>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900&display=swap" rel="stylesheet">
 
-    {{-- <main style="background-image: url('{{ asset('images/orphans.jpg') }}');background-size: cover;"
-     class="font-montserrat"> --}}
-    <main class="bg-white font-montserrat">
+    <main style="background-image: url('{{ asset('images/vibe.gif') }}');"
+     class="font-montserrat">
+    {{-- <main class="bg-white font-montserrat"> --}}
         <header class="h-24 sm:h-32 pt-6 flex items-center">
             <div class="container mx-auto px-6 sm:px-12 flex items-center justify-between">
 
                 <div class="text-pink font-pink text-4xl flex items-center">
-                    {{-- <div class="w-24 h-18 mr-6">
-                        {{-- <img src="{{ asset('images/logo.png') }}" alt=""> --}}
-                    {{-- </div> --}}
                     <span>
                         <strong>Musician's Web</strong>
                     </span>
@@ -54,7 +51,8 @@
                        to get a peace of mind
                     </strong>
                         <br>
-                         Web
+                        <br>
+                        Share Your Favourite list with us
                         </h1>
                         <br>
                     <p class="lg:text-lg mb-4 sm:mb-12">
