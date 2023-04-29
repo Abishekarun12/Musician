@@ -3,11 +3,10 @@
 
     <main style="background-image: url('{{ asset('images/vibe.gif') }}');"
      class="font-montserrat">
-    {{-- <main class="bg-white font-montserrat"> --}}
         <header class="h-24 sm:h-32 pt-6 flex items-center">
             <div class="container mx-auto px-6 sm:px-12 flex items-center justify-between">
 
-                <div class="text-pink font-pink text-4xl flex items-center">
+                <div  style="color: white" class="text-pink font-pink text-4xl flex items-center">
                     <span>
                         <strong>Musician's Web</strong>
                     </span>
@@ -17,16 +16,17 @@
                     <nav class="text-pink text-lg hidden lg:flex items-center">
 
                         @if (Route::has('admin.login'))
-                            <a href="{{ route('admin.login') }}" class="py-2 px-6 flex hover:text-blue-500">Admin</a>
+                            <a href="{{ route('admin.login') }}" style="color: white" class="py-2 px-6 flex hover:text-green-500">Admin</a>
                         @endif
 
                         @if (Route::has('login'))
                             @auth('front')
-                                <a href="{{ url('/dashboard') }}" class="py-2 px-6 flex hover:text-blue-500">Dashboard</a>
+                                <a href="{{ url('/dashboard') }}"  style="color: white" class="py-2 px-6 flex hover:text-blue-500">Dashboard</a>
                             @else
-                                <a href="{{ route('login') }}" class="py-2 px-6 flex hover:text-blue-500">Log in</a>
+                                <a href="{{ route('login') }}"  style="color: white"  class="py-2 px-6 flex hover:text-blue-500">Log in</a>
                                 @if (Route::has('register'))
                                     <a href="{{ route('register') }}"
+                                    style="color: white" 
                                         class="ml-4 py-2 px-6 flex hover:text-blue-500">Register</a>
                                 @endif
                             @endauth
@@ -45,14 +45,16 @@
             <div class="container mx-auto px-6 sm:px-12 flex flex-col-reverse sm:flex-row items-center gap-10 ">
                 <div class=" flex flex-col items-start mt-8 sm:mt-0 ">
                     <br>
-                    <h1 class="text-4xl lg:text-6xl leading-none mb-4"><strong class="font-black">
-                       Feel The Musics
+                    <h1 class="text-4xl lg:text-6xl leading-none mb-4">
+                        <strong class="font-black">Feel The Musics
                        <br>
                        to get a peace of mind
                     </strong>
                         <br>
                         <br>
-                        Share Your Favourite list with us
+                        Share Your Favourite 
+                        <br>
+                        list with us
                         </h1>
                         <br>
                     <p class="lg:text-lg mb-4 sm:mb-12">
@@ -61,7 +63,7 @@
                          </p>
                         <br>
                     <a href="https://abishek-portfolio.vercel.app/"
-                        class="font-semibold text-lg bg-green-500 hover:bg-blue-400 text-white py-3 px-10 rounded-full">Developed By</a>
+                        class="font-semibold text-lg bg-green-500 hover:bg-blue-400 text-white py-3 px-10  rounded-full">Developed By</a>
                 </div>
                 {{-- <div class="mb-4 sm:mb-12">
                     <img src="https://media4.giphy.com/media/eh0X7QwmxiXihecJud/giphy.gif?cid=6c09b952quzttq69muk85q0zrpmg4wd5atf34meb1aj6evfk&rid=giphy.gif&ct=s"
